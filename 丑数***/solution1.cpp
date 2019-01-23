@@ -1,3 +1,7 @@
+// 维护三个指针
+// 丑数都是从 2，3，5 相乘得来的
+// 每次选三个指针处，分别乘以 2，3，5 后最小的数加入队列中。
+
 class Solution {
     vector<int> ugly_number = vector<int>(1, 1);
     int point2 = 0, point3 = 0, point5 = 0;
