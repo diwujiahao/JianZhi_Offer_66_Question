@@ -19,7 +19,7 @@ public:
             }
             // 不满足递增 可能使用大小王
             if (numbers[i] != numbers[i+1] - 1){
-                bingo = bingo - (numbers[i+1] - numbers[i] -1);
+                bingo = bingo - (numbers[i+1] - numbers[i] - 1);
                 if (bingo < 0){
                     return false;
                 }
